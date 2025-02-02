@@ -1,0 +1,4 @@
+# CHANGO
+[tool.chango]
+sys_path = "changes"
+chango_instance = { name= "chango_instance", module = "config" }
