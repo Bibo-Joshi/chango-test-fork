@@ -22,6 +22,6 @@ jobs:
           persist-credentials: false
       - uses: Bibo-Joshi/chango@630bf955a21cc53b28fea352726757809dd4eef1
         with:
-          github-token: ${{ secrets.GITHUB_PAT }}
+          github-token: ${{ secrets.CHANGO_PAT }}
           query-issue-types: true
 
